@@ -20,6 +20,7 @@ body{
 .second{
     background-image: url(iStock_000049566594_XXXLarge_01.png);
     padding: 1% 0;
+    padding-right: 5%;
     background-repeat: no-repeat;
     background-position: left;
 }
