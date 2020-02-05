@@ -7,20 +7,26 @@ body{
 
 .header{
     background-image: url(iStock_000049566594_XXXLarge_01.png);
-    padding: 1%;
+    padding: 1% 0;
     background-repeat: no-repeat;
     background-position: right;
 }
 
+.headerText{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
 .second{
     background-image: url(iStock_000049566594_XXXLarge_01.png);
-    padding: 1%;
+    padding: 1% 0;
     background-repeat: no-repeat;
     background-position: left;
 }
 
 p{
     color: white;
+    padding-right: 5%;
 }
 
 h1{
@@ -34,4 +40,8 @@ h2{
 ul{
     color: white;
     text-align: left;
+}
+
+.third{
+    padding: 5%;
 }
