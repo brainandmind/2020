@@ -9,10 +9,16 @@ body{
     background-image: url(iStock_000049566594_XXXLarge_01.png);
     background-size: 100%;
     margin: 0;
+    padding: 1%;
+    background-repeat: round;
 }
 
 .second{
     background-image: url(iStock_000049566594_XXXLarge_01.png);
+    background-size: 100%;
+    margin: 0;
+    padding: 1%;
+    background-repeat: round;
 }
 
 p{
@@ -20,6 +26,10 @@ p{
 }
 
 h1{
+    color: white;
+}
+
+h2{
     color: white;
 }
 
