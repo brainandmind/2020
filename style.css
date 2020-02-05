@@ -7,18 +7,18 @@ body{
 
 .header{
     background-image: url(iStock_000049566594_XXXLarge_01.png);
-    background-size: 100%;
     margin: 0;
     padding: 1%;
-    background-repeat: round;
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .second{
     background-image: url(iStock_000049566594_XXXLarge_01.png);
-    background-size: 100%;
     margin: 0;
     padding: 1%;
-    background-repeat: round;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 p{
