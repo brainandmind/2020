@@ -2,17 +2,19 @@ body{
     background-color: black;
     text-align: center;
     font-family: 'Ubuntu', sans-serif;
-    margin: 0 10%;
+    margin: 0 5%;
 }
 
 .header{
-    background-image: url(img/iStock_000049566594_XXXLarge_01.jpg);
+    background-image: url(iStock_000049566594_XXXLarge_01.jpg);
     background-size: 100%;
+    margin: 0;
 }
 
 .second{
-    background-image: url(img/iStock_000049566594_XXXLarge_01.jpg);
+    background-image: url(iStock_000049566594_XXXLarge_01.jpg);
     background-size: 100%;
+    margin: 0;
 }
 
 p{
