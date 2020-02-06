@@ -1,8 +1,8 @@
 body{
     background-color: black;
-    text-align: center;
     font-family: 'Ubuntu', sans-serif;
     margin: 0 0;
+    max-width: 1920px;
 }
 
 .header{
@@ -10,6 +10,12 @@ body{
     padding: 1% 0;
     background-repeat: no-repeat;
     background-position: right;
+    text-align: center;
+}
+
+.test, .site{
+    padding: 1% 0;
+    text-align: center;
 }
 
 .headerText{
@@ -17,11 +23,12 @@ body{
     padding-left: 5%;
 }
 
-.second{
+.itwillbe{
     background-image: url(iStock_000049566594_XXXLarge_01.png);
     padding: 1% 0;
     background-repeat: no-repeat;
     background-position: left;
+
 }
 
 p{
@@ -29,19 +36,45 @@ p{
     padding-right: 5%;
 }
 
-h1{
+h1, h2, li{
     color: white;
 }
 
-h2{
-    color: white;
+h1, h2{
+    text-align: center;
 }
 
-ul{
-    color: white;
-    text-align: left;
-}
-
-.third{
+.site{
     padding: 5%;
 }
+
+.left, .right{
+        width: 44%;
+        display: inline-block;
+        text-align: left;
+        padding-right: 5%;
+    }
+
+    ul{
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+    .wewant, .itwillbe{
+        padding-bottom: 5%;
+    }
+
+
+    @media(max-width:450px){
+        .left, .right{
+            width: 90%;
+            text-align: left;
+            padding-right: 5%;
+        }
+        ul{
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        .wewant, .itwillbe{
+            padding-bottom: 10%;
+        }
+    }
