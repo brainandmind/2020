@@ -33,19 +33,17 @@ section{
     }
   }
 
-.header{
+.bgpic{
     background: linear-gradient(to right, black 0%, black calc(50% - 45%), 
     transparent calc(50% - 5%), 
     transparent calc(50% + 5%), black calc(50% + 45%), black 100%),
     url(background.png) no-repeat top center;
     background-size: cover;
-    padding: 1% 0;
     background-position: right;
-    text-align: center;
 }
 
-.test, .site{
-    padding: 1% 0;
+.header, .test, .site{
+    padding: 5% 10%;
     text-align: center;
 }
 
@@ -54,31 +52,26 @@ section{
     padding-left: 5%;
 }
 
-.itwillbe{
-    background:  linear-gradient(to right, black 0%, black calc(50% - 45%), 
-    transparent calc(50% - 5%), 
-    transparent calc(50% + 5%), black calc(50% + 45%), black 100%),
-    url(background.png) no-repeat top center;
-    padding: 1% 0;
-    background-position: left;
-    background-size: cover;
-}
-
 p{
     color: white;
     padding-right: 5%;
 }
 
-h1, h2, li, h3{
+h1, h2, li, h3, h4, a{
     color: white;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
     text-align: center;
 }
 
 .site{
+    padding: 5% 5% 0;
+}
+
+.site1{
     padding: 5%;
+    text-align: center;
 }
 
 .left, .right{
@@ -104,11 +97,34 @@ h1, h2, h3{
             margin-block-start: 0;
             margin-block-end: 0;
         }
-        .wewant, .itwillbe{
+        .wewant, .itwillbe, .prof{
             padding-bottom: 10%;
         }
     }
 
-    .wewant1, .itwillbe1{
+    .wewant1, .itwillbe1, .aboutworkshop, .aboutlsh, .prof1, .org{
         padding: 5% 10%;
     }
+
+    .one, .two, .three{
+        width: 20%;
+        display: inline-block;
+        text-align: center;
+        padding: 0 5%;
+    }
+
+    @media(max-width: 600px){
+        .one, .two, .three{
+            width: 90%;
+            text-align: center;
+            padding: 5%;
+        }
+        .org{
+            padding-bottom: 10%;
+        }
+    }
+
+    .support{
+        padding: 2%;
+    }
+
