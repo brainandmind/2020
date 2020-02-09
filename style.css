@@ -142,7 +142,7 @@ ul {
 }
 
 .support {
-    padding: 2%;
+    padding: 5%;
 }
 
 .btn {
@@ -154,6 +154,11 @@ ul {
 }
 
 .itwillbe,
-.centertxt {
+.centertxt,
+.prof {
+    text-align: center;
+}
+
+.dolphin {
     text-align: center;
 }
