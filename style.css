@@ -5,10 +5,41 @@ body{
     max-width: 1920px;
 }
 
+section{
+    padding: 0 5%;
+  }
+  
+  @media (min-width: 575.98px){
+    section {
+      padding: 0 calc(50% - 270px);
+    }
+  }
+  
+  @media (min-width: 767.98px){
+    section {
+      padding: 0 calc(50% - 360px);
+    }
+  }
+  
+  @media (min-width: 991.98px) {
+    section {
+      padding: 0 calc(50% - 480px);
+    }
+  }
+  
+  @media (min-width: 1199.98px){
+    section {
+      padding: 0 calc(50% - 590px);
+    }
+  }
+
 .header{
-    background-image: url(iStock_000049566594_XXXLarge_01.png);
+    background: linear-gradient(to right, black 0%, black calc(50% - 45%), 
+    transparent calc(50% - 5%), 
+    transparent calc(50% + 5%), black calc(50% + 45%), black 100%),
+    url(background.png) no-repeat top center;
+    background-size: cover;
     padding: 1% 0;
-    background-repeat: no-repeat;
     background-position: right;
     text-align: center;
 }
@@ -24,11 +55,13 @@ body{
 }
 
 .itwillbe{
-    background-image: url(iStock_000049566594_XXXLarge_01.png);
+    background:  linear-gradient(to right, black 0%, black calc(50% - 45%), 
+    transparent calc(50% - 5%), 
+    transparent calc(50% + 5%), black calc(50% + 45%), black 100%),
+    url(background.png) no-repeat top center;
     padding: 1% 0;
-    background-repeat: no-repeat;
     background-position: left;
-
+    background-size: cover;
 }
 
 p{
@@ -36,11 +69,11 @@ p{
     padding-right: 5%;
 }
 
-h1, h2, li{
+h1, h2, li, h3{
     color: white;
 }
 
-h1, h2{
+h1, h2, h3{
     text-align: center;
 }
 
@@ -49,10 +82,10 @@ h1, h2{
 }
 
 .left, .right{
-        width: 44%;
+        width: 38%;
         display: inline-block;
         text-align: left;
-        padding-right: 5%;
+        padding: 0 5%;
     }
 
     ul{
@@ -60,11 +93,11 @@ h1, h2{
         margin-block-end: 0;
     }
     .wewant, .itwillbe{
-        padding-bottom: 5%;
+        padding: 5% 10%;
     }
 
 
-    @media(max-width:450px){
+    @media(max-width: 600px){
         .left, .right{
             width: 90%;
             text-align: left;
