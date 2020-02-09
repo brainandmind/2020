@@ -1,130 +1,158 @@
-body{
+body {
     background-color: black;
     font-family: 'Ubuntu', sans-serif;
     margin: 0 0;
     max-width: 1920px;
 }
 
-section{
+section {
     padding: 0 5%;
-  }
-  
-  @media (min-width: 575.98px){
-    section {
-      padding: 0 calc(50% - 270px);
-    }
-  }
-  
-  @media (min-width: 767.98px){
-    section {
-      padding: 0 calc(50% - 360px);
-    }
-  }
-  
-  @media (min-width: 991.98px) {
-    section {
-      padding: 0 calc(50% - 480px);
-    }
-  }
-  
-  @media (min-width: 1199.98px){
-    section {
-      padding: 0 calc(50% - 590px);
-    }
-  }
+}
 
-.bgpic{
-    background: linear-gradient(to right, black 0%, black calc(50% - 45%), 
-    transparent calc(50% - 5%), 
-    transparent calc(50% + 5%), black calc(50% + 45%), black 100%),
-    url(background.png) no-repeat top center;
+@media (min-width: 575.98px) {
+    section {
+        padding: 0 calc(50% - 270px);
+    }
+}
+
+@media (min-width: 767.98px) {
+    section {
+        padding: 0 calc(50% - 360px);
+    }
+}
+
+@media (min-width: 991.98px) {
+    section {
+        padding: 0 calc(50% - 480px);
+    }
+}
+
+@media (min-width: 1199.98px) {
+    section {
+        padding: 0 calc(50% - 590px);
+    }
+}
+
+.bgpic {
+    background: linear-gradient(to right, black 0%, black calc(50% - 45%), transparent calc(50% - 5%), transparent calc(50% + 5%), black calc(50% + 45%), black 100%), url(background.png) no-repeat top center;
     background-size: cover;
     background-position: right;
 }
 
-.header, .test, .site{
+.header,
+.test,
+.site,
+.support {
     padding: 5% 10%;
     text-align: center;
 }
 
-.headerText{
+.headerText {
     padding-right: 5%;
     padding-left: 5%;
 }
 
-p{
-    color: white;
-    padding-right: 5%;
-}
-
-h1, h2, li, h3, h4, a{
+p {
     color: white;
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+li,
+h3,
+h4,
+a {
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4 {
     text-align: center;
 }
 
-.site{
+.site {
     padding: 5% 5% 0;
 }
 
-.site1{
+.site1 {
     padding: 5%;
     text-align: center;
 }
 
-.left, .right{
-        width: 38%;
-        display: inline-block;
-        text-align: left;
-        padding: 0 5%;
-    }
+.twocols {
+    width: 38%;
+    display: inline-block;
+    text-align: left;
+    padding: 0 5%;
+}
 
-    ul{
+ul {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+@media(max-width: 600px) {
+    .twocols {
+        width: 90%;
+        text-align: left;
+        padding-right: 5%;
+    }
+    ul {
         margin-block-start: 0;
         margin-block-end: 0;
     }
-
-
-    @media(max-width: 600px){
-        .left, .right{
-            width: 90%;
-            text-align: left;
-            padding-right: 5%;
-        }
-        ul{
-            margin-block-start: 0;
-            margin-block-end: 0;
-        }
-        .wewant, .itwillbe, .prof{
-            padding-bottom: 10%;
-        }
+    .wewant,
+    .itwillbe,
+    .prof {
+        padding-bottom: 10%;
     }
+}
 
-    .wewant1, .itwillbe1, .aboutworkshop, .aboutlsh, .prof1, .org{
-        padding: 5% 10%;
-    }
+.wewant1,
+.itwillbe1,
+.aboutworkshop,
+.aboutlsh,
+.prof1,
+.org {
+    padding: 5% 10%;
+}
 
-    .one, .two, .three{
-        width: 20%;
-        display: inline-block;
+.org1 {
+    width: 18%;
+    display: inline-block;
+    text-align: center;
+    padding: 0 5%;
+}
+
+.org {
+    text-align: center;
+}
+
+@media(max-width: 600px) {
+    .org1 {
+        width: 90%;
         text-align: center;
-        padding: 0 5%;
+        padding: 5%;
     }
-
-    @media(max-width: 600px){
-        .one, .two, .three{
-            width: 90%;
-            text-align: center;
-            padding: 5%;
-        }
-        .org{
-            padding-bottom: 10%;
-        }
+    .org {
+        padding-bottom: 10%;
     }
+}
 
-    .support{
-        padding: 2%;
-    }
+.support {
+    padding: 2%;
+}
 
+.btn {
+    border: 2px solid white;
+    display: inline-block;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.itwillbe {
+    text-align: center;
+}
