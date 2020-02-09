@@ -130,7 +130,7 @@ ul {
     text-align: center;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 770px) {
     .org1 {
         width: 90%;
         text-align: center;
