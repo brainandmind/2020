@@ -92,9 +92,6 @@ h1, h2, h3{
         margin-block-start: 0;
         margin-block-end: 0;
     }
-    .wewant, .itwillbe{
-        padding: 5% 10%;
-    }
 
 
     @media(max-width: 600px){
