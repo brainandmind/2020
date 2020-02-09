@@ -120,7 +120,7 @@ ul {
 }
 
 .org1 {
-    width: 18%;
+    width: 22%;
     display: inline-block;
     text-align: center;
     padding: 0 5%;
@@ -132,12 +132,9 @@ ul {
 
 @media(max-width: 770px) {
     .org1 {
-        width: 90%;
+        width: 50%;
         text-align: center;
         padding: 5%;
-    }
-    .org {
-        padding-bottom: 10%;
     }
 }
 
@@ -155,10 +152,15 @@ ul {
 
 .itwillbe,
 .centertxt,
-.prof {
+.prof,
+.dolphin,
+.pics {
     text-align: center;
 }
 
-.dolphin {
+.pics {
+    width: 120px;
+    height: 120px;
+    border-radius: 120px 120px 120px 120px;
     text-align: center;
 }
