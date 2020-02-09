@@ -97,7 +97,7 @@ ul {
 @media(max-width: 600px) {
     .twocols {
         width: 90%;
-        text-align: center;
+        text-align: left;
         padding-right: 5%;
         vertical-align: top;
     }
