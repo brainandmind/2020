@@ -52,16 +52,13 @@ section {
     padding-left: 5%;
 }
 
-p {
-    color: white;
-}
-
 h1,
 h2,
 li,
 h3,
 h4,
-a {
+a,
+p {
     color: white;
 }
 
@@ -73,10 +70,6 @@ h4 {
 }
 
 .site {
-    padding: 5% 5% 0;
-}
-
-.site1 {
     padding: 5%;
     text-align: center;
 }
@@ -87,11 +80,6 @@ h4 {
     text-align: left;
     padding: 0 5%;
     vertical-align: top;
-}
-
-ul {
-    margin-block-start: 0;
-    margin-block-end: 0;
 }
 
 @media(max-width: 600px) {
@@ -116,7 +104,7 @@ ul {
 .itwillbe1,
 .aboutworkshop,
 .aboutlsh,
-.prof1,
+.prof,
 .org {
     padding: 5% 10%;
 }
@@ -126,11 +114,6 @@ ul {
     display: inline-block;
     text-align: center;
     padding: 0 5%;
-    vertical-align: top;
-}
-
-.org {
-    text-align: center;
     vertical-align: top;
 }
 
@@ -159,7 +142,8 @@ ul {
 .centertxt,
 .prof,
 .dolphin,
-.pics {
+.pics,
+.org {
     text-align: center;
     vertical-align: top;
 }
