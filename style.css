@@ -1,6 +1,7 @@
 body {
     background-color: black;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16pt;
     margin: 0 0;
     max-width: 1920px;
 }
@@ -39,17 +40,26 @@ section {
     background-position: right;
 }
 
+.headertitle,
+.ht1 {
+    text-align: left;
+}
+
 .header,
 .test,
 .site,
 .support {
-    padding: 5% 10%;
+    padding: 5% 5%;
     text-align: center;
 }
 
 .headerText {
     padding-right: 5%;
     padding-left: 5%;
+}
+
+.headertitle {
+    font-size: 32pt;
 }
 
 h1,
@@ -78,7 +88,7 @@ h4 {
     width: 38%;
     display: inline-block;
     text-align: left;
-    padding: 0 5%;
+    padding: 0 5% 0 5%;
     vertical-align: top;
 }
 
@@ -106,7 +116,7 @@ h4 {
 .aboutlsh,
 .prof,
 .org {
-    padding: 5% 10%;
+    padding: 3% 0;
 }
 
 .org1 {
@@ -127,7 +137,7 @@ h4 {
 }
 
 .support {
-    padding: 5%;
+    padding: 0 5% 5% 5%;
 }
 
 .btn {
@@ -153,4 +163,98 @@ h4 {
     height: 120px;
     border-radius: 120px 120px 120px 120px;
     text-align: center;
+}
+
+.stroke {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+.stroke21 {
+    float: left;
+    width: 40%;
+    padding: 5%;
+}
+
+.stroke22 {
+    float: left;
+    width: 50%;
+}
+
+.stroke23 {
+    float: right;
+    width: 40%;
+    padding: 5%;
+}
+
+.stroke24 {
+    float: right;
+    width: 50%;
+}
+
+.test,
+.aboutworkshop,
+.itwillbe,
+.aboutlsh {
+    background-color: white;
+}
+
+.blacktext {
+    color: black;
+}
+
+.menu ul {
+    padding: 0;
+    position: relative;
+}
+
+.menu li {
+    display: inline-block;
+    font-size: 14pt;
+}
+
+.menu a {
+    padding: 1em;
+    display: block;
+    color: white;
+    background: black;
+}
+
+.menu {
+    text-align: center;
+}
+
+.lshblack {
+    padding: 5% 5%;
+}
+
+.headerbtn {
+    text-align: left;
+    padding: 5%;
+}
+
+.back_to_top {
+    font-family: 'Didact Gothic', sans-serif;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    z-index: 9999;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 30px;
+    background: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 2px;
+    display: none;
+}
+
+.back_to_top:hover {
+    background: #e9ebec;
+}
+
+.back_to_top-show {
+    display: block;
 }
