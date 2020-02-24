@@ -80,7 +80,7 @@ h4 {
 }
 
 .site {
-    padding: 5%;
+    padding: 20% 5% 5% 5%;
     text-align: center;
 }
 
@@ -116,7 +116,7 @@ h4 {
 .aboutlsh,
 .prof,
 .org {
-    padding: 3% 0;
+    padding: 5% 0;
 }
 
 .org1 {
@@ -137,7 +137,7 @@ h4 {
 }
 
 .support {
-    padding: 0 5% 5% 5%;
+    padding: 5%;
 }
 
 .btn {
@@ -191,6 +191,18 @@ h4 {
 .stroke24 {
     float: right;
     width: 50%;
+}
+
+@media(max-width: 1000px) {
+    .stroke21,
+    .stroke22,
+    .stroke23,
+    .stroke24 {
+        width: 90%;
+        text-align: left;
+        padding: 5%;
+        vertical-align: top;
+    }
 }
 
 .test,
