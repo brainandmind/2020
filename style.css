@@ -49,7 +49,7 @@ section {
 .test,
 .site,
 .support {
-    padding: 5% 5%;
+    padding: 5%;
     text-align: center;
 }
 
@@ -165,39 +165,39 @@ h4 {
     text-align: center;
 }
 
-.stroke {
+.line {
     display: inline-block;
     text-align: left;
     vertical-align: top;
 }
 
-.stroke21 {
+.line21 {
     float: left;
     width: 40%;
     padding: 5%;
 }
 
-.stroke22 {
+.line22 {
     float: left;
     width: 50%;
 }
 
-.stroke23 {
+.line23 {
     float: right;
     width: 40%;
     padding: 5%;
 }
 
-.stroke24 {
+.line24 {
     float: right;
     width: 50%;
 }
 
 @media(max-width: 1000px) {
-    .stroke21,
-    .stroke22,
-    .stroke23,
-    .stroke24 {
+    .line21,
+    .line22,
+    .line23,
+    .line24 {
         width: 90%;
         text-align: left;
         padding: 5%;
